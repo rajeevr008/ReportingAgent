@@ -8,6 +8,7 @@ config/*.json
 !config/.gitkeep
 .env
 local_settings.bat
+local_settings.py
 
 # Generated report output
 output/

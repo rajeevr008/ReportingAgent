@@ -1,0 +1,9 @@
+# Copy this file to local_settings.py (gitignored, never commit real values)
+# and fill in the real values. run_app.pyw reads it automatically.
+#
+# You only need this file if you are NOT setting these as persistent Windows
+# user environment variables. If you set them with setx / the Environment
+# Variables dialog, delete this and run_app.pyw will use those instead.
+
+GOOGLE_APPLICATION_CREDENTIALS = r"C:\path\to\your\service-account-key.json"
+ANTHROPIC_API_KEY = "sk-ant-your-key-here"
